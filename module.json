@@ -1,0 +1,260 @@
+{
+    "id": "hadook-dnd5e-2014",
+    "title": "Hadook's D&D 5e (2014)",
+    "description": "A collection of compendia for D&D 5e content (2014).",
+    
+    "version": "#{VERSION}#",
+
+    "url": "#{URL}#",
+    "manifest": "#{MANIFEST}#",
+    "download": "#{DOWNLOAD}#",
+
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    },
+    "authors": [
+        {
+            "name": "hadook",
+            "discord": "",
+            "email": "",
+            "url": "",
+            "flags": {}
+        }
+    ],
+
+    "packs": [
+        {
+            "name": "races",
+            "label": "Races",
+            "path": "packs/races",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "backgrounds",
+            "label": "Backgrounds",
+            "path": "packs/backgrounds",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "classes",
+            "label": "Classes",
+            "path": "packs/classes",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "feats",
+            "label": "Feats",
+            "path": "packs/feats",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "items",
+            "label": "Items",
+            "path": "packs/items",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "spells",
+            "label": "Spells",
+            "path": "packs/spells",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "monsters",
+            "label": "Monsters",
+            "path": "packs/monsters",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "scenes",
+            "label": "Scenes",
+            "path": "packs/scenes",
+            "type": "Scene",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "rules",
+            "label": "Rules",
+            "path": "packs/rules",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "tables",
+            "label": "Tables",
+            "path": "packs/tables",
+            "type": "RollTable",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "macros",
+            "label": "Macros",
+            "path": "packs/macros",
+            "type": "Macro",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        },
+        {
+            "name": "adventures",
+            "label": "Adventures",
+            "path": "packs/adventures",
+            "type": "Adventure",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e",
+            "flags": {}
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Hadook's D&D 5e (2014)",
+            "sorting": "m",
+            "color": "#418C9B",
+            "packs": [],
+            "folders": [
+                {
+                    "name": "Character Features",
+                    "sorting": "m",
+                    "color": "#327685",
+                    "packs": [
+                        "races",
+                        "backgrounds",
+                        "classes",
+                        "class-features",
+                        "feats"
+                    ]
+                },
+                {
+                    "name": "Items & Spells",
+                    "sorting": "m",
+                    "color": "#22606F",
+                    "packs": [
+                        "items",
+                        "spells"
+                    ]
+                },
+                {
+                    "name": "Actors & Scenes",
+                    "sorting": "m",
+                    "color": "#134958",
+                    "packs": [
+                        "monsters",
+                        "scenes"
+                    ]
+                },
+                {
+                    "name": "Utility",
+                    "sorting": "m",
+                    "color": "#033342",
+                    "packs": [
+                        "rules",
+                        "tables",
+                        "macros",
+                        "adventures"
+                    ]
+                }
+            ]
+        }
+    ],
+    "flags": {
+        "dnd5e": {
+            "sourceBooks": {
+                "PHB": "Player's Handbook",
+                "AAG": "Astral Adventurer's Guide",
+                "DMG": "Dungeon Master's Guide",
+                "DoSI": "Dragons of Stormwreck Isle",
+                "FTD": "Fizban's Treasury of Dragons",
+                "IDRotF": "Icewind Dale: Rime of the Frostmaiden",
+                "LMoP": "Lost Mine of Phandelver",
+                "PaBTSO": "Phandelver and Below: The Shattered Obelisk",
+                "SCAG": "Sword Coast Adventurer's Guide",
+                "SCC": "Strixhaven: A Curriculum of Chaos",
+                "TCE": "Tasha's Cauldron of Everything",
+                "XGE": "Xanathar's Guide to Everything"
+            },
+            "spellLists": [
+                "Compendium.hadook-dnd5e-2014.rules.JournalEntry.H4fXEq2CGtakMfZK.JournalEntryPage.ICLxY2QIxiGpYWxl",
+                "Compendium.hadook-dnd5e-2014.rules.JournalEntry.H4fXEq2CGtakMfZK.JournalEntryPage.0h5ucNoN4KHe5Qic",
+                "Compendium.hadook-dnd5e-2014.rules.JournalEntry.H4fXEq2CGtakMfZK.JournalEntryPage.7E8hhWkcoFI6527J",
+                "Compendium.hadook-dnd5e-2014.rules.JournalEntry.H4fXEq2CGtakMfZK.JournalEntryPage.XXnybWGB4FFZLTCK",
+                "Compendium.hadook-dnd5e-2014.rules.JournalEntry.H4fXEq2CGtakMfZK.JournalEntryPage.7zIE4wdQAxkc532a",
+                "Compendium.hadook-dnd5e-2014.rules.JournalEntry.H4fXEq2CGtakMfZK.JournalEntryPage.lERpATLgQjEmvYjS",
+                "Compendium.hadook-dnd5e-2014.rules.JournalEntry.H4fXEq2CGtakMfZK.JournalEntryPage.LL2pwTsGhCcAH4im",
+                "Compendium.hadook-dnd5e-2014.rules.JournalEntry.H4fXEq2CGtakMfZK.JournalEntryPage.SnZQNZ5ZYSfLXHzu"
+            ]
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "appearance": {
+    "global": {
+      "labelColor": "#ffffff",
+      "diceColor": "#c79c00",
+      "outlineColor": "#000000",
+      "edgeColor": "#c4a121",
+      "texture": "bronze01",
+      "material": "metal",
+      "font": "auto",
+      "colorset": "custom",
+      "system": "standard"
+    }
+  },
+  "settings": {
+    "enabled": true,
+    "showExtraDice": false,
+    "hideAfterRoll": true,
+    "timeBeforeHide": "2000",
+    "hideFX": "fadeOut",
+    "autoscale": true,
+    "scale": 75,
+    "speed": "1",
+    "imageQuality": "high",
+    "shadowQuality": "high",
+    "bumpMapping": true,
+    "sounds": true,
+    "soundsSurface": "felt",
+    "soundsVolume": 0.5,
+    "canvasZIndex": "over",
+    "throwingForce": "medium",
+    "useHighDPI": true,
+    "antialiasing": "msaa",
+    "glow": true,
+    "showOthersSFX": true,
+    "immersiveDarkness": true,
+    "muteSoundSecretRolls": false,
+    "enableFlavorColorset": true,
+    "rollingArea": false
+  }
+}

@@ -31,6 +31,9 @@
             "flags": {}
         }
     ],
+    "esmodules": [
+        "scripts/hotbar.js"
+    ],
 
     "packs": [
         {

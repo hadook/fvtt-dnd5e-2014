@@ -1,3 +1,9 @@
+Hooks.once("ready", async () => {
+    const hidden = game.settings.get("hadook-dnd5e-2014", "hideHotbar");
+    const hotbarElement = document.getElementById("hotbar");
+    if (hotbarElement) hotbarElement.style.display = hidden ? "none" : "";
+});
+
 Hooks.once("init", () => {
     game.settings.register("hadook-dnd5e-2014", "hideHotbar", {
         name: "Hide Hotbar",
@@ -12,10 +18,4 @@ Hooks.once("init", () => {
         },
         requiresReload: false,
     });
-});
-
-Hooks.once("ready", async () => {
-    const hidden = game.settings.get("hadook-dnd5e-2014", "hideHotbar");
-    const hotbarElement = document.getElementById("hotbar");
-    if (hotbarElement) hotbarElement.style.display = hidden ? "none" : "";
 });
